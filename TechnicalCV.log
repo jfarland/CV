@@ -1,7 +1,7 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (MiKTeX 2.9) (preloaded format=pdflatex 2015.12.29)  5 JAN 2016 17:17
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (MiKTeX 2.9) (preloaded format=pdflatex 2015.12.29)  5 JAN 2016 17:02
 entering extended mode
-**./FarlandCV.tex
-(FarlandCV.tex
+**./TechnicalCV.tex
+(TechnicalCV.tex
 LaTeX2e <2015/10/01> patch level 2
 Babel <3.9m> and hyphenation patterns for 69 languages loaded.
 (resume.cls
@@ -75,8 +75,8 @@ Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
 \Gm@dimlist=\toks16
 
 ("C:\Users\jonfar\AppData\Local\Programs\MiKTeX 2.9\tex\latex\geometry\geometry
-.cfg")) (FarlandCV.aux)
-\openout1 = `FarlandCV.aux'.
+.cfg")) (TechnicalCV.aux)
+\openout1 = `TechnicalCV.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 19.
 LaTeX Font Info:    ... okay on input line 19.
@@ -99,14 +99,14 @@ LaTeX Font Info:    ... okay on input line 19.
 * layout: <same size as paper>
 * layoutoffset:(h,v)=(0.0pt,0.0pt)
 * modes: 
-* h-part:(L,W,R)=(36.135pt, 542.02501pt, 36.135pt)
+* h-part:(L,W,R)=(54.2025pt, 505.89pt, 54.2025pt)
 * v-part:(T,H,B)=(43.36243pt, 708.24513pt, 43.36243pt)
 * \paperwidth=614.295pt
 * \paperheight=794.96999pt
-* \textwidth=542.02501pt
+* \textwidth=505.89pt
 * \textheight=708.24513pt
-* \oddsidemargin=-36.135pt
-* \evensidemargin=-36.135pt
+* \oddsidemargin=-18.06749pt
+* \evensidemargin=-18.06749pt
 * \topmargin=-65.90756pt
 * \headheight=12.0pt
 * \headsep=25.0pt
@@ -144,6 +144,11 @@ Underfull \hbox (badness 10000) in paragraph at lines 57--61
 
 Underfull \hbox (badness 10000) in paragraph at lines 62--64
 
+ []
+
+
+Overfull \hbox (18.25928pt too wide) in paragraph at lines 73--80
+[][] 
  []
 
 [1
@@ -246,23 +251,23 @@ l.128 	\end{rSubsection}
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
-[3] (FarlandCV.aux) ) 
+[3] (TechnicalCV.aux) ) 
 Here is how much of TeX's memory you used:
  875 strings out of 493634
- 12393 string characters out of 3134830
- 73986 words of memory out of 3000000
+ 12413 string characters out of 3134830
+ 73988 words of memory out of 3000000
  4302 multiletter control sequences out of 15000+200000
  7639 words of font info for 27 fonts, out of 3000000 for 9000
  1025 hyphenation exceptions out of 8191
- 27i,6n,21p,620b,171s stack positions out of 5000i,500n,10000p,200000b,50000s
-<C:/Users/jonfar/AppData/Local/Programs/MiKTeX 2.9/fonts/t
-ype1/public/amsfonts/cm/cmbx10.pfb><C:/Users/jonfar/AppData/Local/Programs/MiKT
-eX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/jonfar/AppData/Local
-/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/jonfar/
-AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:
-/Users/jonfar/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/
-cmti10.pfb>
-Output written on FarlandCV.pdf (3 pages, 88645 bytes).
+ 27i,6n,21p,622b,171s stack positions out of 5000i,500n,10000p,200000b,50000s
+<C:/Users/jonfar/AppData/Local/Programs/MiKTeX 2.9/fonts
+/type1/public/amsfonts/cm/cmbx10.pfb><C:/Users/jonfar/AppData/Local/Programs/Mi
+KTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/jonfar/AppData/Loc
+al/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/jonfa
+r/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><
+C:/Users/jonfar/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/c
+m/cmti10.pfb>
+Output written on TechnicalCV.pdf (3 pages, 88470 bytes).
 PDF statistics:
  32 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
