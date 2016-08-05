@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (MiKTeX 2.9) (preloaded format=pdflatex 2015.12.29)  7 JAN 2016 10:47
+This is XeTeX, Version 3.14159265-2.6-0.99992 (MiKTeX 2.9) (preloaded format=xelatex 2016.5.16)  15 JUL 2016 03:21
 entering extended mode
 **./FarlandCV.tex
 (FarlandCV.tex
@@ -10,6 +10,7 @@ Document Class: resume 2010/07/10 v0.9 Resume class
 Document Class: article 2014/09/29 v1.4h Standard LaTeX document class
 ("C:\Users\jonfar\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\size11.clo"
 File: size11.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
+Requested font "cmr10" at 10.95pt
 )
 \c@part=\count79
 \c@section=\count80
@@ -50,7 +51,7 @@ Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
 ("C:\Users\jonfar\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\ifpdf.
 sty"
 Package: ifpdf 2011/01/30 v2.3 Provides the ifpdf switch (HO)
-Package ifpdf Info: pdfTeX in PDF mode is detected.
+Package ifpdf Info: pdfTeX in PDF mode is not detected.
 )
 ("C:\Users\jonfar\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\ifvtex
 .sty"
@@ -74,8 +75,8 @@ Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
 \Gm@layoutvoffset=\dimen112
 \Gm@dimlist=\toks16
 
-("C:\Users\jonfar\AppData\Local\Programs\MiKTeX 2.9\tex\latex\geometry\geometry
-.cfg")) (FarlandCV.aux)
+("C:\Users\jonfar\AppData\Local\Programs\MiKTeX 2.9\tex\xelatex\xetexconfig\geo
+metry.cfg")) (FarlandCV.aux)
 \openout1 = `FarlandCV.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 19.
@@ -91,7 +92,6 @@ LaTeX Font Info:    ... okay on input line 19.
 LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 19.
 LaTeX Font Info:    ... okay on input line 19.
 
-*geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
 *geometry* verbose mode - [ preamble ] result:
 * driver: pdftex
@@ -125,6 +125,16 @@ LaTeX Font Info:    ... okay on input line 19.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
+Requested font "cmr17" at 20.74pt
+Requested font "cmbx12" at 20.74pt
+Requested font "cmr8" at 8.0pt
+Requested font "cmr6" at 6.0pt
+Requested font "cmmi10" at 10.95pt
+Requested font "cmmi8" at 8.0pt
+Requested font "cmmi6" at 6.0pt
+Requested font "cmsy10" at 10.95pt
+Requested font "cmsy8" at 8.0pt
+Requested font "cmsy6" at 6.0pt
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <10.95> on input line 19.
 LaTeX Font Info:    External font `cmex10' loaded for size
@@ -136,6 +146,8 @@ Overfull \hbox (30.0pt too wide) in paragraph at lines 19--19
 [] 
  []
 
+Requested font "cmbx10" at 10.95pt
+Requested font "cmti10" at 10.95pt
 
 Underfull \hbox (badness 10000) in paragraph at lines 57--61
 
@@ -148,7 +160,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 62--64
 
 [1
 
-{C:/Users/jonfar/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}]
+]
 
 ! LaTeX Error: Something's wrong--perhaps a missing \item.
 
@@ -156,8 +168,8 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.98 	\end{rSubsection}
-                       
+l.98 ^^I\end{rSubsection}
+                         
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
@@ -168,8 +180,8 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.102 	\end{rSubsection}
-                        
+l.102 ^^I\end{rSubsection}
+                          
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
@@ -180,8 +192,8 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.106 	\end{rSubsection}
-                        
+l.106 ^^I\end{rSubsection}
+                          
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
@@ -192,8 +204,8 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.110 	\end{rSubsection}
-                        
+l.110 ^^I\end{rSubsection}
+                          
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
@@ -204,8 +216,8 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.114 	\end{rSubsection}
-                        
+l.114 ^^I\end{rSubsection}
+                          
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
@@ -217,8 +229,8 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.120 	\end{rSubsection}
-                        
+l.120 ^^I\end{rSubsection}
+                          
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
@@ -229,8 +241,8 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.124 	\end{rSubsection}
-                        
+l.124 ^^I\end{rSubsection}
+                          
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
@@ -241,30 +253,19 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.128 	\end{rSubsection}
-                        
+l.128 ^^I\end{rSubsection}
+                          
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 [3] (FarlandCV.aux) ) 
 Here is how much of TeX's memory you used:
- 875 strings out of 493634
- 12393 string characters out of 3134830
- 73986 words of memory out of 3000000
- 4302 multiletter control sequences out of 15000+200000
+ 870 strings out of 428721
+ 11208 string characters out of 3160262
+ 73182 words of memory out of 3000000
+ 4282 multiletter control sequences out of 15000+200000
  7639 words of font info for 27 fonts, out of 3000000 for 9000
- 1025 hyphenation exceptions out of 8191
- 27i,6n,21p,620b,171s stack positions out of 5000i,500n,10000p,200000b,50000s
-<C:/Users/jonfar/AppData/Local/Programs/MiKTeX 2.9/fonts/t
-ype1/public/amsfonts/cm/cmbx10.pfb><C:/Users/jonfar/AppData/Local/Programs/MiKT
-eX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/jonfar/AppData/Local
-/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/jonfar/
-AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:
-/Users/jonfar/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/
-cmti10.pfb>
-Output written on FarlandCV.pdf (3 pages, 88548 bytes).
-PDF statistics:
- 32 PDF objects out of 1000 (max. 8388607)
- 0 named destinations out of 1000 (max. 500000)
- 1 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1096 hyphenation exceptions out of 8191
+ 27i,6n,21p,619b,171s stack positions out of 5000i,500n,10000p,200000b,50000s
 
+Output written on FarlandCV.pdf (3 pages).
