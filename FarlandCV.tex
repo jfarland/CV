@@ -1,164 +1,188 @@
-	%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-	% Jonathan Farland's CV
-	% January 1, 2016
-	%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-	%----------------------------------------------------------------------------------------
-	%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
-	%----------------------------------------------------------------------------------------
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Jonathan Farland's CV
+% January 1, 2016
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-	\documentclass{resume} % Use the custom resume.cls style
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
 
-	\usepackage[left=0.5in,top=0.6in,right=0.5in,bottom=0.6in]{geometry} % Document margins
+\documentclass{resume} % Use the custom resume.cls style
 
-	\name{Jonathan T Farland} % Your name
-	\address{389 Palm Avenue APT 17 \\ Oakland, California 94610} % Your address
-	%\address{123 Pleasant Lane \\ City, State 12345} % Your secondary addess (optional)
-	\address{(508)~$\cdot$~237~$\cdot$~8192 \\ jonfarland@gmail.com} % Your phone number and email
+\usepackage[left=0.5in,top=0.6in,right=0.5in,bottom=0.6in]{geometry} % Document margins
+\usepackage{hyperref}
 
-	\begin{document}
+\name{Jonathan T. Farland} % Your name
+\address{389 Palm Avenue APT 17 \\ Oakland, California 94610 \\ (508)~$\cdot$~237~$\cdot$~8192} % Your address
+%\address{123 Pleasant Lane \\ City, State 12345} % Your secondary addess (optional)
+\address{jonfarland@gmail.com \\ \href{https://www.linkedin.com/in/jonathan-farland-40096216}{LinkedIn} \\ 
+		 \href{https://github.com/jfarland}{github}\\
+		 \href{https://www.youtube.com/watch?v=nYbqJDCZ2wI}{Silicon Angle} \\
+		 \href{https://www.youtube.com/watch?v=cTOPfsjMflE&feature=youtu.be}{Spark Summit}}
 
-	%----------------------------------------------------------------------------------------
-	%	WORK EXPERIENCE SECTION
-	%----------------------------------------------------------------------------------------
+\begin{document}
 
-	\begin{rSection}{Experience}
+%----------------------------------------------------------------------------------------
+%	WORK EXPERIENCE SECTION
+%----------------------------------------------------------------------------------------
 
-	\begin{rSubsection}{DNV GL Energy}{Aug 2012 - Present}{Consultant, Data Scientist, Senior Analyst}{San Francisco Bay Area, CA}
-	\item Engineered and deployed machine and statistical learning procedures to fit both explanatory and predictive models
-	\item Lead quantitative analyst for forecasting business line.
-	\item Proposed and managed technical studies related to the evaluation of energy programs across the US and globally. These include demand response, behavioral programs, distributed generation, renewables, and electric vehicle  penetration. 
-	\item Responsible for client facing dissemination, reporting, and explanation of results and methods. 
-	
-	\end{rSubsection}
+\begin{rSection}{Experience}
 
-	%------------------------------------------------
+\begin{rSubsection}{DNV GL Energy}{Aug 2012 - Present}{Senior Consultant, Data Scientist}{San Francisco Bay Area, CA}
+\item Responsible for client facing reporting and advisory services as lead technical consultant for the  predictive analytics team.
+\item Developed hierarchical load forecasting approaches to address growth in emerging technologies and distributed generation using machine and statistical learning procedures.
+\item Proposed and managed technical studies related to the evaluation of energy programs across the US and globally. These include demand response, behavioral programs, distributed generation, renewables, and electric vehicle  penetration. 
 
-	\begin{rSubsection}{Independent System Operator New England}{Dec 2009 - Oct 2010}{Resource Adequacy}{Holyoke, MA}
-	\item Researched and developed advanced electrical load forecasting methodologies.
-	\item Designed heuristic algorithms that calculate dispatchable (real-time) availability of resources during system peak using MATLAB through a production Oracle server.
-	\end{rSubsection}
+\end{rSubsection}
 
-	%------------------------------------------------
+%------------------------------------------------
 
-	\begin{rSubsection}{Department of Resource Economics}{Jan 2008 - Apr 2010}{Graduate Statistics Instructor}{Amherst, MA}
-	\item Management of an eight-member group of undergraduate teaching assistants to instruct a large scale intermediate statistics course.
-  \item Lecture, lab, and discussion of topics such as hypothesis testing, ANOVA, Multivariate Regression, Forecasting and Nonparametric Regression.
-	\end{rSubsection}
+\begin{rSubsection}{Independent System Operator New England}{Dec 2009 - Oct 2010}{Resource Adequacy}{Holyoke, MA}
 
-	\end{rSection}
-	
-	%----------------------------------------------------------------------------------------
-	%	EDUCATION SECTION
-	%----------------------------------------------------------------------------------------
+\item Designed heuristic algorithms that calculate dispatchable (real-time) availability of resources during system peak using empirical distributional fitting in concert with Kolmogorov-Smirnof and Jacques-Berra nonparametrics tests.
+\item Algorithms implemented using an VBA-enabled Excel front end using MATLAB as the analytical engine and a production Oracle server as the back-end.
 
-	\begin{rSection}{Education}
+\end{rSubsection}
 
-	{\bf University of Massachussetts, Amherst, USA} \hfill {\em Aug 2012} \\
-	Masters of Science -  Applied Econometrics: Deans List, Cum Laude \\
-	Bachelors of Business Admin - Operations Research \& Finance \\
-	Minor in Resource Economics \\
+%------------------------------------------------
 
-	{\bf University of Naples Federico, Portici, Italy} \hfill {\em Aug 2011} \\
-	Certificate of Course Completion - Advanced Micro-Econometrics \\
+\begin{rSubsection}{Department of Resource Economics}{Jan 2008 - Apr 2010}{Graduate Statistics Instructor}{Amherst, MA}
+\item Lecture, lab, and discussion of topics such as hypothesis testing, ANOVA, Multivariate Regression, Forecasting and Nonparametric Regression.
+\item Management of an eight-member group of undergraduate teaching assistants to instruct a large scale intermediate statistics course.
+\end{rSubsection}
 
-	\end{rSection}
-	
-	%----------------------------------------------------------------------------------------
-	%	TECHNICAL STRENGTHS SECTION
-	%----------------------------------------------------------------------------------------
+\end{rSection}
 
-	\begin{rSection}{Technical Strengths}
+%----------------------------------------------------------------------------------------
+%	EDUCATION SECTION
+%----------------------------------------------------------------------------------------
 
-	\begin{tabular}{ @{} >{\bfseries}l @{\hspace{6ex}} l }
-	Languages & Linux/Unix, R, Python, SAS, Stata, Matlab, SQL, Mathematica, VBA, AMPL  \\
-	Version Control & git, Mercurial \\
-	Computing & Spark, Hadoop, Cloudera CDH, Databricks, AWS, Digital Ocean\\
-	Applications & Tableau,  SAS Forecast Studio, SAS Visual Analytics, Advanced Microsoft Office \\
+\begin{rSection}{Education}
 
-	\end{tabular}
+{\bf University of Massachussetts, Amherst, USA} \hfill {\em Aug 2012} \\
+Masters of Science -  Applied Econometrics: Deans List, Cum Laude \\
+Bachelors of Business Admin - Operations Research \& Finance \\
+Minor in Resource Economics \\
 
-	\end{rSection}
-	
-	\pagebreak
-	
-	%----------------------------------------------------------------------------------------
-	%	SELECTED PROJECT WORK
-	%----------------------------------------------------------------------------------------
+{\bf University of Naples Federico, Portici, Italy} \hfill {\em Aug 2011} \\
+Certificate of Course Completion - Advanced Micro-Econometrics \\
 
-	\begin{rSection}{Selected Project Work}
-	
-	\begin{rSubsection}{Bottom Up Forecasting of Energy and Peak Demand in the Kingdom of Saudi Arabia}{}{Senior Data Scientist}{Riyadh, Saudia Arabia}
-	Data analytics and modeling for the largest end-use metering project in the world. Developed and delivered a three-day course on predictive analytics to subsequently train analytical staff at client site in Riyadh, Saudi Arabia. Seminar participants included staff from Saudi Aramco, Saudi Electricity Company, and the Electricity and Cogeneration Regulatory Authority. 
-	
-	\end{rSubsection}
-	
-	\begin{rSubsection}{Hierachical Forecasting of Demand Response Impacts across Utility Service Territory}{}{Lead Data Scientist}{San Francisco, California}
-	Lead Data Scientist on project demonstrating the feasibility of using hourly, premise-level advanced metering infrastructure (AMI) data for day ahead demand response forecasting. The models estimated         reference load and load curtailment due to peak period demand surcharges. The premise level models were developed and trained primarily using cross-validation techniques. The forecast results were aggregated up distribution hierarchy to produce program load reduction forecasts. The project demonstrated the feasibility of using premise level models within a simulated production environment.
-	\end{rSubsection}
-	
-	\begin{rSubsection}{Behavioural Demand Response Evaluation}{}{Project Manager}{Ottawa, Canada}
-	Project Manager and Lead Data Scienstist for an impact evaluation pertaining to a hybrid energy program targeting both ongoing behavioural impacts as well as event-based hourly demand reductions. Analytics and reporting were generated using the Spark (1.5) distributed computing framework, Amazon Web Service, and the Databricks browser based platform. 
-	\end{rSubsection}
-	
-	\begin{rSubsection}{Home Energy Reports Behavioural Evaluation}{}{Project Manager}{Seattle, Washington}
-Project Manager and Lead Data Scientist for the impact evaluation of client's Home Electricity Reports program, which used the Opower platform. The program was deployed with multiple overlapping randomized controlled trial experimental designs and a central part of the evaluation was identifying the appropriate way to estimate savings for all of the pieces.   Industry standard techniques for HER program evaluation were implemented. complete the impact evaluation.
-	\end{rSubsection}  
-	
-	\begin{rSubsection}{Critical Peak Pricing Pilot Evaluation}{}{Lead Data Scientist}{Portland, Oregon}
-Lead Data Scientist for an impact evaluation of clients's Critical Peak Pricing Pilot. Hourly regression models were estimated using Advanced Metering Infrastructure (AMI) data and NOAA weather data. These models were transferred to an excel-based tool capable of estimating and visualizing impacts under different weather scenarios. 
-	\end{rSubsection}
-	
-	\begin{rSubsection}{Dynamic Pricing Pilot Evaluation}{}{Lead Data Scientist}{State of Virginia}
-Lead Data Scientist for an impact and process evaluation of client's Dynamic Pricing Pilot. This pilot provides time of use rates to residential and commercial customers as a price signal for them to reduce consumption during system peak hours. The evaluation report includes a load impact analysis, surveys to assess awareness, understanding, and acceptance of rate, and reporting for both residential and commercial participants. Residential participants have a matched control group; there are no matched controls for commercial participants.
-	\end{rSubsection}
-	
-  \pagebreak
-	
-	\begin{rSubsection}{Electric Vehicle Pilot Evaluation}{}{Lead Data Scientist}{State of Virginia}
-Lead Data Scientist for a pilot involving time-of-use charging rates for electric vehicle owner's in Virginia. The project focused on whole house impacts for EV owners, as well as vehicle-charging only impacts. Statistical methods were used to enumerate differences between control and treatment average load shapes for the vehicle-charging only members. A synthetic control group was generated for the whole house treatment members.
-	\end{rSubsection}  
+\end{rSection}
 
-	\begin{rSubsection}{Macroeconomic Modeling of State Commercial and Industrial Energy Sectors}{}{Lead Data Scientist}{State of Massachusetts}
-	Lead Data Scientist for a macroeconomic consumption modeling project of Massachusetts' Commercial and Industrial sectors. Our team developed a database of billing data pertaining to commercial and industrial premises for all energy efficiency program administrators in Massachusetts for three years. Along with NOAA weather data and economic data from the US Census Bureau and other sources, macroeconomic consumption models were used to estimate the impact of energy efficiency programs at the county and town level. 
-	\end{rSubsection}  
+%----------------------------------------------------------------------------------------
+%	TECHNICAL STRENGTHS SECTION
+%----------------------------------------------------------------------------------------
 
-	\begin{rSubsection}{Mathematical Programming Approach Towards Risk Mitigation in Sports Betting}{}{Graduate Researcher}{University of Massachusetts}
-	Developed a modeling technique to maximize profit subject to a zero probability of loss from sports betting. Solved using the Simplex Algorithm, with the CPLEX solver in AMPL.
-	\end{rSubsection} 
+\begin{rSection}{Technical Strengths}
 
-	\end{rSection}
-	
+\begin{tabular}{ @{} >{\bfseries}l @{\hspace{6ex}} l }
+Languages & R, Python, SQL, SAS, Matlab, Mathematica, VBA, AMPL  \\
+Computing & Unix-based Systems, git, Spark, Hadoop, Databricks, AWS, Digital Ocean\\
+Top R Packages & tidyverse, shiny, forecast, mgcv, quantreg, hts, h2o, sparkR, sparklyr  \\
+Top Python Packages & pandas, numpy, sci-kit learn, PySpark, beautifulsoup   \\
+Applications & Tableau,  SAS Forecast Studio, SAS Visual Analytics, Advanced Microsoft Office \\
+\end{tabular}
 
-	%----------------------------------------------------------------------------------------
-	%	PUBLICATIONS
-	%----------------------------------------------------------------------------------------
+\end{rSection}
 
-  \begin{rSection}{Publications}
-  \item {\bf  Zonal and Regional Load Forecasting in The New England Wholesale Electricity Market}: Semiparametric Regression Approach, Masters Thesis, University of Massachusetts, 2012
-  \item {\bf Breaking Down Analytical and Computational Barriers in Energy Data Analytics}, Spark Summit San Francisco, USA, 2016
-  \item {\bf Load Forecasing with Distributed Energy Resources}, International Symposium on Forecasting, Santander, Spain, 2016
-  
-  \end{rSection}
+\pagebreak
+
+%----------------------------------------------------------------------------------------
+%	SELECTED PROJECT WORK
+%----------------------------------------------------------------------------------------
+
+\begin{rSection}{Selected Project Work}
+
+\begin{rSubsection}{Caltrack Beta Test}{}{Lead Data Scientist}{San Francisco, California}
+\item[] Primary code base developer for rapid measurement of site-level, weather normalized energy savings. Process and predictive results benchmarked across open-source implementations from \href{https://github.com/impactlab/caltrack}{Open EE Meter}. Algorithms implemented using R, Python and the Spark distributed computing framework on compute-optimized instances in the Amazon cloud.
+\end{rSubsection}
+
+\begin{rSubsection}{Global Energy Transition Outlook}{}{Technical Advisor}{Oslo, Norway}
+\item[] Technical advisor for DNV GL's Energy Transition Outlook (ETO). This annual report seeks to identify and measure the major industry implications of the ongoing global energy transition for each of the OECD's regions. Developed bottom-up and top-down predictions of energy demand for each region of the globe until 2040. 
+\end{rSubsection}
+
+\begin{rSubsection}{Hierarchical Forecasting of Energy and Peak Demand in the Kingdom of Saudi Arabia}{}{Senior Data Scientist}{Riyadh, Saudia Arabia}
+\item[] Data analytics and modeling for the largest end-use metering project in the world. Developed and delivered a three-day course on predictive analytics to subsequently train analytical staff at client site in Riyadh, Saudi Arabia. Seminar participants included staff from Saudi Aramco, Saudi Electricity Company, and the Electricity and Cogeneration Regulatory Authority. 
+\end{rSubsection}
+
+\begin{rSubsection}{Day-Ahead Forecasting of Demand Response Impacts Utility Distribution Grid}{}{Lead Data Scientist}{San Francisco, California}
+\item[] Lead Data Scientist on project demonstrating the feasibility of using hourly, premise-level advanced metering infrastructure (AMI) data for day ahead demand response forecasting. The models estimated         reference load and load curtailment due to peak period demand surcharges. The premise level models were developed and trained primarily using cross-validation techniques. The forecast results were aggregated up distribution hierarchy to produce program load reduction forecasts. The project demonstrated the feasibility of using premise level models within a simulated production environment.
+\end{rSubsection}
+
+\begin{rSubsection}{Behavioural Demand Response Evaluation}{}{Project Manager}{Ottawa, Canada}
+\item[] Project Manager and Lead Data Scienstist for an impact evaluation pertaining to a hybrid energy program targeting both ongoing behavioural impacts as well as event-based hourly demand reductions. Analytics and reporting were generated using the Spark (1.5) distributed computing framework, Amazon Web Service S3 and EC2 instances, and the Databricks browser based platform. 
+
+\end{rSubsection}
+
+\begin{rSubsection}{Home Energy Reports Behavioural Evaluation}{}{Project Manager}{Seattle, Washington}
+\item[] Project Manager and Lead Data Scientist for the impact evaluation of client's Home Electricity Reports program, which used the Opower platform. The program was deployed with multiple overlapping randomized controlled trial experimental designs and a central part of the evaluation was identifying the appropriate way to estimate savings for all of the pieces.   Industry standard techniques for HER program evaluation were implemented. complete the impact evaluation.
+\end{rSubsection}  
+
+\begin{rSubsection}{Critical Peak Pricing Pilot Evaluation}{}{Lead Data Scientist}{Portland, Oregon}
+\item[] Lead Data Scientist for an impact evaluation of clients's Critical Peak Pricing Pilot. Hourly regression models were estimated using Advanced Metering Infrastructure (AMI) data and NOAA weather data. These models were transferred to an excel-based tool capable of estimating and visualizing impacts under different weather scenarios. 
+\end{rSubsection}
+
+\begin{rSubsection}{Dynamic Pricing Pilot Evaluation}{}{Lead Data Scientist}{State of Virginia}
+\item[] Lead Data Scientist for an impact and process evaluation of client's Dynamic Pricing Pilot. This pilot provides time of use rates to residential and commercial customers as a price signal for them to reduce consumption during system peak hours. The evaluation report includes a load impact analysis, surveys to assess awareness, understanding, and acceptance of rate, and reporting for both residential and commercial participants. Residential participants have a matched control group; there are no matched controls for commercial participants.
+\end{rSubsection}
+
+\begin{rSubsection}{Electric Vehicle Pilot Evaluation}{}{Lead Data Scientist}{State of Virginia}
+\item[] Lead Data Scientist for a pilot involving time-of-use charging rates for electric vehicle owner's in Virginia. The project focused on whole house impacts for EV owners, as well as vehicle-charging only impacts. Statistical methods were used to enumerate differences between control and treatment average load shapes for the vehicle-charging only members. A synthetic control group was generated for the whole house treatment members.
+\end{rSubsection}  
+
+\begin{rSubsection}{Macroeconomic Modeling of State Commercial and Industrial Energy Sectors}{}{Lead Data Scientist}{State of Massachusetts}
+\item[] Lead Data Scientist for a macroeconomic consumption modeling project of Massachusetts' Commercial and Industrial sectors. Our team developed a database of billing data pertaining to commercial and industrial premises for all energy efficiency program administrators in Massachusetts for three years. Along with NOAA weather data and economic data from the US Census Bureau and other sources, macroeconomic consumption models were used to estimate the impact of energy efficiency programs at the county and town level. 
+\end{rSubsection}  
+
+\begin{rSubsection}{Mathematical Programming Approach Towards Risk Mitigation in Sports Betting}{}{Graduate Researcher}{University of Massachusetts}
+\item[] Developed a modeling technique to maximize profit subject to a zero probability of loss from sports betting. Solved using the Simplex Algorithm, with the CPLEX solver in AMPL.
+\end{rSubsection} 
+
+\end{rSection}
+
+\pagebreak
+
+%----------------------------------------------------------------------------------------
+%	PUBLICATIONS
+%----------------------------------------------------------------------------------------
+
+\begin{rSection}{Publications and Research}
+
+\item {\bf Model Based Matching and Other Benefits of High Frequency Interval Data}, P. Franzese, V. Richardson, K. Agnew, J. Farland, G. Sadhasivan, L. Getachew, International Energy Program Evaluation Conference, Baltimore, USA, 2017
+\item {\bf Electricity End Use Forecasting Using Non-Intrusive Load Metering Technology}, J. Farland, C. Puckett, F. Coito, International Symposium on Forecasting, Cairns, Australia, 2017
+
+\item {\bf High Resolution Energy Modeling that Scales with Apache Spark 2.0}, J. Farland, Spark Summit Boston, USA, 2017
+
+\item {\bf Load Forecasing with Distributed Energy Resources}, J.Farland, F. Farzan, R.J. Hyndman, International Symposium on Forecasting, Santander, Spain, 2016
+
+\item {\bf Breaking Down Analytical and Computational Barriers in Energy Data Analytics}, J. Farland, Spark Summit San Francisco, USA, 2016
+
+\item {\bf  Zonal and Regional Load Forecasting in The New England Wholesale Electricity Market}: Semiparametric Regression Approach, Masters Thesis, University of Massachusetts, 2012
 
 
-	%----------------------------------------------------------------------------------------
-	%	HONORS SECTION
-	%----------------------------------------------------------------------------------------
+\end{rSection}
 
-	\begin{rSection}{Professional Organizations and Distinctions}
 
-  \item Member International Institute of Forecasting
-  \item Invited Speaker, 34th International Symposium on Forecasting, Rotterdam, Netherlands
-  \item Energy Forecasting Session Chair, 36th International Symposium on Forecasting, Santander, Spain
-  \item Invited Speaker, Spark Forum, San Francisco, USA, 2016
-  \item Invited Speaker, Spark Summit, San Francisco, USA, 2016
-  \item International Advanced Econometrics Scholarship from Italian Ministry of Agriculture
-  \item Vijay Bhagavan Distinquished Teaching Award, University of Massachusetts Amherst
-  \item Chair of Finance and Administration, SGA
-  \item Deans List 2006 - 2012, Cum Laude
+%----------------------------------------------------------------------------------------
+%	HONORS SECTION
+%----------------------------------------------------------------------------------------
 
-	\end{rSection}
-	%----------------------------------------------------------------------------------------
+\begin{rSection}{Professional Organizations and Distinctions}
 
-	\end{document}
+
+\item Speaker, 37th International Symposium on Forecasting, Cairns, Australia, 2017
+\item Speaker, Spark Summit East, Boston, USA, 2017
+\item Energy Forecasting Session Chair, 36th International Symposium on Forecasting, Santander, Spain, 2016
+\item Speaker, AEIC Advanced Load Research Applications, Nashville, Tennessee, USA, 2016
+\item Speaker, Spark Advisory Forum, San Francisco, USA, 2016
+\item Speaker, Spark Summit West, San Francisco, USA, 2016
+\item Speaker, 34th International Symposium on Forecasting, Rotterdam, Netherlands, 2014
+\item Vijay Bhagavan Distinquished Teaching Award, University of Massachusetts Amherst, 2012
+\item International Advanced Econometrics Scholarship from Italian Ministry of Agriculture, 2011
+\item Member International Institute of Forecasting
+
+\end{rSection}
+%----------------------------------------------------------------------------------------
+
+\end{document}
