@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.5.23)  2 MAR 2020 08:10
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.5.23)  2 MAY 2020 20:03
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -283,15 +283,15 @@ Overfull \hbox (13.39233pt too wide) in paragraph at lines 86--94
 
 {/usr/local/texlive/2017/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
 [2] [3]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 221.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 223.
  [4]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 221.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 223.
  (./FarlandCV.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 221.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 221.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 223.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 223.
 Package rerunfilecheck Info: File `FarlandCV.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 221.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 223.
  ) 
 Here is how much of TeX's memory you used:
  4798 strings out of 492995
@@ -306,7 +306,7 @@ Here is how much of TeX's memory you used:
 </usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></
 usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></u
 sr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb>
-Output written on FarlandCV.pdf (4 pages, 89622 bytes).
+Output written on FarlandCV.pdf (4 pages, 89885 bytes).
 PDF statistics:
  50 PDF objects out of 1000 (max. 8388607)
  38 compressed objects within 1 object stream
